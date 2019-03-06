@@ -15,7 +15,7 @@ cd /opt
 git clone https://github.com/autominy/debian-packaging.git
 cd debian-packaging
 sed -i -e "s/DEPS/$DEPENDENCIES/g" autominy-basic-packages/DEBIAN/control
-cp -r /opt/autominy autominy-basic-packagages/opt/ 
+cp -r /opt/autominy autominy-basic-packages/opt/ 
 dpkg-deb --build autominy-basic-packages
 
 exec "$@"
