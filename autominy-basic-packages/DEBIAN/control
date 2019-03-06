@@ -1,0 +1,10 @@
+Package: autominy-basic-packages
+Architecture: armhf
+Maintainer: Stephan Sundermann
+Depends: DEPS
+Priority: optional
+Version: 20190305
+Description: Basic packages for the Autonomous Modelcar Project from FU-Berlin
+ This package contains basic ros drivers to run and control the car.
+ For more information visit: https://github.com/AutoModelCar/AutoModelCarWiki/wiki
+
